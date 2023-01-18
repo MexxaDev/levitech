@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+}
+img{
+    width: 100%;
+}
+
+@media (min-width: 800px) {
+    img{
+        width: 50%;
+    }
+}
